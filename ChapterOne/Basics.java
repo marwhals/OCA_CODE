@@ -47,6 +47,7 @@ public class Basics {
 	No reserved words eg: public, String etc.
 */
 static String newLine = System.getProperty("line.separator"); //This will retrieve the line separator
+//The above is an example of a class variable
 
 	public static void main(String[] args) {
 		/*
@@ -60,7 +61,7 @@ static String newLine = System.getProperty("line.separator"); //This will retrie
 			"void" is the return type and signals what data type is to be returned (if any)
 		*/
 
-		//The variables below have the default access modifier
+		//The variables below have the default access modifier. They are all local variables
 		boolean meh = true, nah = false;
 		//int num, String value; //This line does not compile because they are different types they must share the same type.
 		byte bite = 123; //8 bit integer value
