@@ -1,12 +1,24 @@
-public class Animal {
-//This is the most basic class definition
-private String name;
+/*
+This is the simplest class you can have below
+*/
 
-	public static void main(String[] args) {
-		
+/*public class Animal {
+	String name;
+}*/
+
+//Although java doesn't require a class to be public.
+
+public class Animal {
+	String name;
+	public String getName() {
+		return name;
 	}
 
+	public void setName(String newName) {
+		name = newName;
+	}
 }
-class class2 {
-	//AS LONG AS IT IS NOT PUBLIC
+
+class Animal2 {
+	pirvate String; //It is okay to do this with as well
 }
