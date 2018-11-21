@@ -1,4 +1,4 @@
-package pond.duck
+package pond.duck;
 
 public class MotherDuck {
 	String noise = "quack";

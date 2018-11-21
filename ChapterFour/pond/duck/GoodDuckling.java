@@ -1,4 +1,4 @@
-package pond.duck
+package pond.duck;
 
 public class GoodDuckling {
 	public void makeNoise() {
